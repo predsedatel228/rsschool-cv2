@@ -1,97 +1,109 @@
 body {
-  margin:0;
+  margin: 0;
 }
+
 .page {
   margin: auto;
   max-width: 1000px;
-  border: 2px solid red;
+  border: 2px solid rgb(0, 0, 0);
 }
+
 .header {
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
-  border: 2px solid red;
   margin: auto;
   max-width: 600px;
-  background-color: rgb(0, 119, 255);
+  background-color: rgb(0, 0, 0);;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   justify-content: center;
 
 }
+
 .img-container {
-  flex:1;
+  flex: 1;
   min-width: 450px;
 }
+
 .img {
   padding-left: 15px;
   max-width: 300px;
-
-  border: 2px solid red;
 }
+
 .title {
   min-width: 450px;
   padding-left: 15px;
   flex: 1;
-  border: 2px solid red;
   text-transform: uppercase;
 }
-.title__name {
-  border: 2px solid red;
+
+.nav {
+  width: 100%;
 }
-.title__profession {
-  border: 2px solid red;
-}
+
 .links {
-  border: 2px solid red;
-  width: 580px;
+  width: 90%;
   display: flex;
   flex-direction: row;
-  list-style-type:none;
+  list-style-type: none;
   justify-content: space-between;
 }
+
 .links__info {
-  border: 2px solid red;
   text-decoration: none;
-  color:white;
+  color: white;
 }
+
 .links__info:hover {
-  color:rgb(212, 211, 211);
+  color: rgb(212, 211, 211);
 }
+
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 2px solid red;
 }
+
 .info__text {
-  display: flex ;
+  display: flex;
   flex-direction: column;
 }
+
 .section {
-  border: 2px solid red;
-  flex:1;
+  border-top: 2px solid rgb(0, 0, 0);
+  flex: 1;
   min-width: 450px;
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .footer {
   height: 50px;
   display: flex;
   justify-content: space-between;
+  border-top: 2px solid rgb(0, 0, 0);
 }
+
 .footer__github-link {
   padding-top: 12px;
   text-decoration: none;
   padding-left: 15px;
   color: black;
 }
+
 .footer__rs-link {
   padding-top: 12px;
   width: 73px;
   height: 26px;
   padding-right: 15px;
 }
+
 .footer__logo {
   height: 26px;
+}
+
+.section__link {
+  text-decoration: none;
+  color: black;
 }
